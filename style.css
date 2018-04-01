@@ -9,4 +9,79 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: none
 Text Domain: newtheme
 */
+body {
+  font-family: raleway;
+  color: #333;
+  background-color: #f8f8f8; }
 
+#header {
+  background-color: #9fb8cf;
+  padding: 50px 0; }
+  #header .site-title {
+    text-align: center; }
+    #header .site-title a {
+      text-decoration: none; }
+  #header .site-description {
+    text-align: center; }
+
+#navbar-top {
+  text-align: center;
+  background-color: #fdc;
+  padding: 50px 0;
+  margin-bottom: 50px; }
+  #navbar-top ul {
+    display: inline;
+    margin: 10px 0;
+    padding: 0;
+    background-color: #fdc; }
+  #navbar-top li {
+    display: inline;
+    padding: 0 20px; }
+    #navbar-top li a {
+      text-decoration: none;
+      padding: 10px; }
+
+#featured-area {
+  background-color: black;
+  height: 500px;
+  margin-bottom: 50px; }
+  #featured-area .row {
+    height: 100%; }
+    #featured-area .row .feature-text {
+      background-color: #e8a7a7;
+      padding: 50px; }
+    #featured-area .row .feature-image {
+      padding: 0;
+      background-image: url(http://via.placeholder.com/800x500);
+      background-position: center; }
+
+#main .latest-post {
+  height: 500px;
+  background-color: #ccc;
+  margin: 20px 5px; }
+#main .post {
+  background-color: #ccc;
+  height: 300px;
+  margin: 20px 5px; }
+
+#side {
+  height: 1000px; }
+  #side .widget {
+    margin: 20px 5px;
+    background-color: #ccc;
+    height: 300px; }
+    #side .widget .widget-title {
+      background-color: black;
+      padding: 10px 0;
+      color: white;
+      text-align: center;
+      margin-bottom: 30px; }
+
+#footer {
+  background-color: #444;
+  margin-top: 50px;
+  text-align: center;
+  padding: 50px 0;
+  color: #eee; }
+
+/*# sourceMappingURL=style.css.map */

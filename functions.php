@@ -45,12 +45,14 @@ add_action('widgets_init', 'init_widgets');
 // Customizer
 function theme_customizer_register($wp_customize) {
 
+    // Colours
     $wp_customize->add_section('colours', array(
         'title' => __('Colours', 'newtheme'),
-        'description' => sprintf(__('Choose custom colours', 'newtheme')),
+        'description' => sprintf(__('Choose custom colours.', 'newtheme')),
         'priority' => 130
     ));
 
+    // Background colour
     $wp_customize->add_setting('background_colour', array(
         'default' => _x('#f8f8f8', 'newtheme'),
         'type' => 'theme_mod'
@@ -66,6 +68,24 @@ function theme_customizer_register($wp_customize) {
             'priority' => 1
         ))
     );
+
+    // Theme settings
+    $wp_customize->add_section('theme_settings', array(
+        'title' => __('Theme Settings', 'newtheme'),
+        'priority' => 131
+    ));
+
+    // Footer text
+    $wp_customize->add_setting('footer_text', array(
+        'default' => _x('Footer text', 'newtheme'),
+        'type' => 'theme_mod'
+    ));
+
+    $wp_customize->add_control('footer_text', array(
+        'type' => 'text',
+        'section' => 'theme_settings',
+        'label' => __('Footer text')
+    ));
 }
 add_action('customize_register', 'theme_customizer_register');
 

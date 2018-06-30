@@ -1,6 +1,6 @@
 <footer id="footer">
     <div class="container">
-        <span>Footer content</span>
+        <span><?php echo get_theme_mod('footer_text'); ?></span>
     </div>
 </footer>
 

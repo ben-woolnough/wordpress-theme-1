@@ -26,25 +26,28 @@ body {
   color: #333; }
 
 #header {
-  background-color: #9fb8cf;
-  padding: 50px 0; }
+  background-color: #474747;
+  padding: 40px 0; }
   #header .site-title {
     text-align: center; }
     #header .site-title a {
-      text-decoration: none; }
+      text-decoration: none;
+      color: #fff; }
+      #header .site-title a:hover {
+        color: #ccc; }
   #header .site-description {
-    text-align: center; }
+    text-align: center;
+    color: #fff; }
 
 #navbar-top {
   text-align: center;
-  background-color: #fdc;
-  padding: 50px 0;
-  margin-bottom: 50px; }
+  background-color: #d3d3d3;
+  padding: 40px 0;
+  margin-bottom: 40px; }
   #navbar-top ul {
     display: inline;
     margin: 10px 0;
-    padding: 0;
-    background-color: #fdc; }
+    padding: 0; }
   #navbar-top li {
     display: inline;
     padding: 0 20px; }
@@ -53,9 +56,9 @@ body {
       padding: 10px; }
 
 #featured-area {
-  background-color: black;
+  background-color: #000;
   height: 500px;
-  margin-bottom: 50px; }
+  margin-bottom: 40px; }
   #featured-area .row {
     height: 100%; }
     #featured-area .row .feature-text {
@@ -94,7 +97,7 @@ body {
 
 #footer {
   background-color: #444;
-  margin-top: 50px;
+  margin-top: 40px;
   text-align: center;
   padding: 50px 0;
   color: #eee; }

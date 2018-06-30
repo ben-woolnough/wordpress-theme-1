@@ -9,6 +9,18 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: none
 Text Domain: newtheme
 */
+.side {
+  background: #d3d3d3;
+  padding: 10px;
+  margin: 10px; }
+
+.widget-title {
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  text-align: center; }
+
 body {
   font-family: raleway;
   color: #333; }

@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<h1>STATIC FRONT PAGE</h1>
+
 <?php get_template_part( 'templates/feature', 'feature' ) ?>
 
 <div class="container">

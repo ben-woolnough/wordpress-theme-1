@@ -28,6 +28,20 @@ function register_menus() {
 add_action('init', 'register_menus');
 
 
+// Widget Locations
+function init_widgets($id) {
+    register_sidebar( array(
+        'name' => __('sidebar-right', 'newtheme'),
+        'id' => 'side',
+        'before_widget' => '<div class="side">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4 class="widget-title">',
+        'after_title' => '</h4>'
+    ) );
+}
+add_action('widgets_init', 'init_widgets');
+
+
 // Customizer
 function theme_customizer_register($wp_customize) {
 
